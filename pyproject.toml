@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "stargayzine"
+version = "0.0.1"
+description = "Stargayzing zines!"
+authors = [
+    "Emma Doyle",
+    "Willow Ahrens"
+]
+maintainers = ["Emma Doyle", "Willow Ahrens"]
+license = "GPLv3"
+readme = "README.md"
+packages = [
+  { include = "src" }
+]
+include = [
+  "LICENSE"
+]
+keywords = [
+    "stargayzing",
+    "zines"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yamale = "^4.0.4"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^4.0.2"
+pylint = "^2.15.10"
+pre-commit = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+# premiscale = "premiscale.agent.cli:main"
