@@ -3,9 +3,6 @@ Plot a thing!
 """
 
 
-
-
-
 def main() -> None:
     size = (11.5, 9)
     page_width, page_height = size[0] / 4, size[1] / 2
