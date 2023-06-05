@@ -1,0 +1,7 @@
+_extends: .github
+
+repository:
+  name: stargayzine
+  description: plot a zine!
+  homepage: https://github.com/bjd2385/bashrc
+  topics: zine, stars, plotting

@@ -21,10 +21,10 @@ keywords = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.12"
+python = ">=3.10,<3.12"
 yamale = "^4.0.4"
 shapely = "^2.0.1"
-elkplot = {git = "https://github.com/ejkaplan/elkplot.git"}
+# elkplot = {git = "https://github.com/ejkaplan/elkplot.git"}
 
 [tool.poetry.group.dev.dependencies]
 twine = "^4.0.2"
@@ -36,4 +36,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-# premiscale = "premiscale.agent.cli:main"
+stargayzine = "src.stargayzine.cli:main"
