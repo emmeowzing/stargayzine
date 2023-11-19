@@ -28,7 +28,7 @@ elkplot = {git = "https://github.com/ejkaplan/elkplot.git"}
 
 [tool.poetry.group.dev.dependencies]
 twine = "^4.0.2"
-pylint = "^2.15.10"
+pylint = "^3.0.0"
 pre-commit = "^3.0.0"
 
 [build-system]
