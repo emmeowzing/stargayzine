@@ -22,7 +22,7 @@ keywords = [
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
-yamale = "^4.0.4"
+yamale = "^5.0.0"
 shapely = "^2.0.1"
 elkplot = {git = "https://github.com/ejkaplan/elkplot.git"}
 

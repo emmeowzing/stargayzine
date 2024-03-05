@@ -1495,13 +1495,13 @@ files = [
 
 [[package]]
 name = "yamale"
-version = "4.0.4"
+version = "5.0.0"
 description = "A schema and validator for YAML."
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.8"
 files = [
-    {file = "yamale-4.0.4-py3-none-any.whl", hash = "sha256:04f914c0886bda03ac20f8468272cfd9374a634a062549490eff2beedeb30497"},
-    {file = "yamale-4.0.4.tar.gz", hash = "sha256:e524caf71cbbbd15aa295e8bdda01688ac4b5edaf38dd60851ddff6baef383ba"},
+    {file = "yamale-5.0.0-py3-none-any.whl", hash = "sha256:286d508d519ece0714a5054c800d60140e618737b86a3f4377f199bd05cb7a3f"},
+    {file = "yamale-5.0.0.tar.gz", hash = "sha256:d5b335e6ca1d3772e4951f63bb18ff6d5b18c1949f854dc37bf15840373c8b60"},
 ]
 
 [package.dependencies]
@@ -1525,4 +1525,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.12"
-content-hash = "7c160975c673b66c3bde0aaf168549dd760970c91986ef46c7f35dea2b6348da"
+content-hash = "299a4b656a8ab3c5ec6df75283bb9f3bfabd012a0e1ba99c14e9060908613112"
