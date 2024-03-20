@@ -115,6 +115,6 @@ shapely==2.0.1 ; python_version >= "3.10" and python_version < "4.0" \
     --hash=sha256:e55698e0ed95a70fe9ff9a23c763acfe0bf335b02df12142f74e4543095e9a9b \
     --hash=sha256:f32a748703e7bf6e92dfa3d2936b2fbfe76f8ce5f756e24f49ef72d17d26ad02 \
     --hash=sha256:f470a130d6ddb05b810fc1776d918659407f8d025b7f56d2742a596b6dffa6c7
-yamale==4.0.4 ; python_version >= "3.10" and python_version < "4.0" \
-    --hash=sha256:04f914c0886bda03ac20f8468272cfd9374a634a062549490eff2beedeb30497 \
-    --hash=sha256:e524caf71cbbbd15aa295e8bdda01688ac4b5edaf38dd60851ddff6baef383ba
+yamale==5.1.0; python_version >= "3.10" and python_version < "4.0" \
+    --hash=sha256:b26052bb1d5d2260b4bc2996449e11ede1e4963a8b2a37305eff2da0c6455342 \
+    --hash=sha256:f5fcc7018824330cab2e2e5d5fefa767c298b5d4bb844e87013dcc4e29a2df84
